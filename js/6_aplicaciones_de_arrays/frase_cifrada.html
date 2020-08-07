@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Cifrado</title>
+    <script type="text/javascript" languaje="javascript">
+
+        // relaciónes clave-valor
+        var miMapa = new Map();
+        miMapa.set("O", "0");
+        miMapa.set("I", "1");
+        miMapa.set("Z", "2");
+        miMapa.set("E", "3");
+        miMapa.set("A", "4");
+        miMapa.set("S", "5");
+        miMapa.set("G", "6");
+        miMapa.set("B", "8");
+
+        // leemos la entrada del usuario
+        document.open();
+        var frase = prompt("Escribe una frase en mayúsculas: ?");
+        var frase_nueva = "";
+
+        // recorremos la cadena
+        for(var i=0; i<frase.length-1; i++){
+                frase_nueva += frase[i];
+            // recorremos las claves y valores
+            for (var [clave, valor] of miMapa) {
+                if(frase[i] == clave){
+                    frase_nueva += valor;
+                }
+            }
+        }
+
+        console.log(frase_nueva);
+        document.write(frase_nueva);
+        document.close();
+
+    </script>
+</head>
+<body>    
+    
+</body>
+</html>

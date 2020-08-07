@@ -1,0 +1,18 @@
+
+- programa 1.- Indicar si una palabra es palindromo o no.
+
+1.- leer entrada del usuario
+2.- guardarlo en una cadena(Lo cual tambien es un array)
+3.- invertir el orden de la cadena y guardarlo en una nueva variable
+4.- comparar las posiciones de la cadena original y de la cadena nueva; en 
+caso de ser iguales la palabra es un palindromo y en caso conrario no lo es.
+
+- programa 2.- codificación de una cadena
+
+ref: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Map
+
+1.- crear un mapa o diccionario con elementos de relación: clave-valor
+2.- leer entrada del usuario en mayúsculas
+3.- guardarlo en una cadena
+4.- iterar los valores del diccionario e ir haciendo las comparaciones con los caracteres de la cadena;
+en caso de ser iguales, ir formando una cadena nueva de forma cifrada... 

@@ -1,0 +1,18 @@
+
+referencia de expresiónes regulares:
+https://lenguajejs.com/p/javascript/caracteristicas/expresiones-regulares
+
+programa.- Pedir un texto al usuario y codificarlo de la siguiente manera:
+En una linea deberá aparecer el texto original, en otro línea únicamente las letras 
+consonantes y en la íltima línea las vocales del mismo.
+Ejemplo: El usuario introdujo el texto "HOLA MUNDO"
+Salida: 
+HOLA MUNDO
+HL MND
+OA UO
+
+1.- leer la entrada del usuario y guardarlo en una variable
+2 .- formar la expresión regular para buscar las consonantes
+3.- formar la expresión regular para buscar las vocales
+3.- buscar la expresión regular en la cadena
+4.- mostrar el resultado
